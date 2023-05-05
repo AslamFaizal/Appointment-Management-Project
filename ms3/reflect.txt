@@ -1,0 +1,44 @@
+/*
+*****************************************************************************
+                        Assignment 1 - Milestone 3
+Full Name   : Faizal Aslam
+Student ID# : 152121216
+Email       : faizal-aslam@myseneca.ca
+Section     : IPC144 ZEE
+
+Authenticity Declaration :
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+* ***************************************************************************
+*/
+
+
+
+1. I created three additional functions that were not specified or provided in the milestone 3 instructions and specifications.
+
+ 
+
+2.The addAppointment() function must perform multiple operations to fulfill all the requirements of its functionality. This function is the biggest function used in the code to simplify the code and make the code less complicated and have less chances of getting a bug or an error.This function calls more than a hundred lines of code by calling existing functions from the core module to do different works. These functions include the findPatientIndexByPatientNum() functions, inputIntPositive() function, inputRange() function among other functions. This could have been an extremely long function without including the existing functions in the core modules. In every section of the code if possible I have used the same function in the code to make understandability better for the reader. The core modules helped the main code to predefine the variable in a different file so that it may increase the readability and understandability of the code. These functions are used for the same purpose in different sections of the file. 
+
+
+
+3. Milestone 3 is the most complicated of all the milestones in the assignment as it includes a lot of user input validation as well functionalities not in the preexisting core and clinic module like sorting, swapping elements, and date validation. Here is the breakdown of the work for each portion of milestone 3 and the estimated time spent to complete the portion. 
+
+Studying the requirements, user specifications of Milestone 3 and the required output to be displayed takes about 45 minutes almost.
+
+Coding and unit testing of importing the patient and appointment files including the bubble sort -> 1 hour and 15 minutes
+
+   int importPatients(const char* datafile, struct Patient patients[], int max);
+   int importAppointments(const char* datafile, struct Appointment appoints[], int max()
+Coding and unit testing the viewing of appointments which is subdivided into two separate functions -> 1 hour and 30 minutes
+
+   void viewAllAppointments(struct ClinicData* data);
+   void viewAppointmentSchedule(struct ClinicData* data);
+Coding and unit testing the addAppointment() function -> 45 minutes
+
+   void addAppointment(struct Appointment* apps, int maxApps, struct Patient* patients, int maxPatients);
+Coding and unit testing the removeAppointment() function -> 40 minutes
+
+   void removeAppointment(struct Appointment* apps, int maxApps, struct Patient* patients, int maxPatients);
+Integration testing of all the functionality and validation of the required output -> 45 minutes

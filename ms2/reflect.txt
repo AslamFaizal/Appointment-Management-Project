@@ -1,0 +1,21 @@
+/*
+*****************************************************************************
+                        Assignment 1 - Milestone 2
+Full Name   : Faizal Aslam
+Student ID# : 152121216
+Email       : faizal-aslam@myseneca.ca
+Section     : IPC144 ZEE
+
+Authenticity Declaration :
+I declare this submission is the r of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+* ***************************************************************************
+*/
+
+
+1. The factor that I consider while naming a module is to keep them short and understandable easily. This practice to identify a library's header and source code files using the same name is quite feasible as it is easy to understand and this makes it less confusing. For instance, in the future, we can use the file named clinic in this module and we can distinguish the file quite easily and we can do any changes to it.
+
+2. The main reason behind making two modules is that it makes the understandability better and makes the work more efficient. One can know which file is used for what part of the code and make the changes to that immediately without the need to find the exact place of the code in a single file. It makes the person who is a beginner or not a professional understand which file is used for which part.
+
+3. Modules are split into two parts which are the header and an implementation file because it is very useful when writing long codes. There can be several pages of codes in some projects and when writing these long codes it is very difficult to find and modify them if they are written in a single 'C' file. On the contrary, when we have two files header and the implementation we know the sequence of the code and can make changes directly to the part we want to modify.

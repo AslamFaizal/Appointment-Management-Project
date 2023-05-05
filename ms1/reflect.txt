@@ -1,0 +1,21 @@
+/*
+*****************************************************************************
+                        Assignment 1 - Milestone 1
+Full Name   : Faizal Aslam
+Student ID# : 152121216
+Email       : faizal-aslam@myseneca.ca
+Section     : IPC144 ZEE
+
+Authenticity Declaration :
+I declare this submission is the r of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+* ***************************************************************************
+*/
+
+
+1. From the core functions library, the function 'displayFormattedPhone' was the most difficult to develop as we were using numbers that we assigned into the char array which simply means that they are treated as characters by the compiler. In starting I got no values in the array and I have to go through the notes again and then I was able to get a solution for the array to work completely fine. Finally, I was able to solve the error in my code and make the array completely functional.
+
+2. It is good to practice initializing variables to 'safe empty state' as it helps us to find the broken links easily with initialized values. When we assign 0 to a variable it means that the value of that variable is 0 but when we assign NULL for the variable that simply means that the variable does not have any value or no value is assigned for the variable. When we have to use validate the value of a variable then we use 0 but if we have to need a variable just to validate then we use NULL.
+
+3. The best way to help my friend understand 'standard Input Buffer' is to explain to him what is buffer. The buffer is a place where the values are received and sent are stored, but sometimes when we take values from the user, some of the values remain in the input buffer and are used by the compiler while another read request is made which starts causing errors in the output. To fix the issue, we check the standard buffer to ensure that it does not contain any unwanted data. To fix this issue we iterate the values in the buffer one after another.
